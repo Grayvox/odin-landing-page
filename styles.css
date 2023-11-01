@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    font-family: 'roboto';
 }
 
 .dark-bg {
@@ -10,24 +11,32 @@ body {
 
 #header {
     display: flex;
-    font-family: 'roboto';
     justify-content: space-around;
     padding-top: 15px;
-    font-family: 'roboto';
     font-weight: bold;
+    font-size: 30px;
+}
+
+#header a {
+    text-decoration: none;
     color: #f9faf8;
 }
 
 .nav-bar {
     display: flex;
     flex-wrap: wrap;
+    font-size: 20px;
+    gap: 55px;
+    align-items: center;
 }
 
-.nav-links {
-    list-style: none;
-}
-
-.nav-links li a {
-    text-decoration: none;
+.nav-bar a {
     color: #f9faf8;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-bar a:hover {
+    background-color: #3a567d;
+    border-radius: 10%;
 }
