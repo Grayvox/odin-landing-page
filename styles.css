@@ -29,23 +29,26 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
-    gap: 55px;
+    gap: 45px;
     align-items: center;
     font-weight: 400;
 }
 
 .nav-bar a {
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 20px;
 }
 
 .nav-bar a:hover {
     background-color: #3a567d;
-    border-radius: 10%;
+    border-radius: 10px;
 }
 
 #main {
     display: flex;
+}
+
+.text-spacing {
     padding: 200px;
 }
 
@@ -57,7 +60,7 @@ body {
 .main-p {
     font-size: 18px;
     font-weight: 400;
-    width: 800px;
+    width: 700px;
 }
 
 .main-button {
@@ -71,4 +74,8 @@ body {
 
 .main-button:hover {
     background-color: #3a567d;
+}
+
+.main-img {
+    padding-top: 70px;
 }
