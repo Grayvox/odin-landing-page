@@ -9,29 +9,32 @@ body {
     background-color: #1F2937;
 }
 
+.white-text {
+    color: #f9faf8;
+}
+
 #header {
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 #header a {
     text-decoration: none;
-    color: #f9faf8;
 }
 
 .nav-bar {
     display: flex;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 18px;
     gap: 55px;
     align-items: center;
+    font-weight: 400;
 }
 
 .nav-bar a {
-    color: #f9faf8;
     text-decoration: none;
     padding: 10px;
 }
@@ -39,4 +42,33 @@ body {
 .nav-bar a:hover {
     background-color: #3a567d;
     border-radius: 10%;
+}
+
+#main {
+    display: flex;
+    padding: 200px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.main-p {
+    font-size: 18px;
+    font-weight: 400;
+    width: 800px;
+}
+
+.main-button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.main-button:hover {
+    background-color: #3a567d;
 }
