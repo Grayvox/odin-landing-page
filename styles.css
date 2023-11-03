@@ -130,5 +130,8 @@ body {
 }
 
 .contact-box {
+    padding: 35px 80px;
     margin: 5em 10em;
+    background-color: #3882f6;
+    border-radius: 10px;
 }
