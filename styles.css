@@ -83,3 +83,31 @@ body {
 .main-img {
     padding-top: 70px;
 }
+
+#showcase {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.image-row {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.showcase-block {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase-img {
+    padding-bottom: 10px;
+}
