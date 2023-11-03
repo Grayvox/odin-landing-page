@@ -154,3 +154,11 @@ body {
     font-size: 18px;
     font-weight: normal;
 }
+
+#footer {
+    padding: 30px;
+}
+
+.footer-text {
+    margin: 5px;
+}
