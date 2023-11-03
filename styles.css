@@ -130,8 +130,21 @@ body {
 }
 
 .contact-box {
+    display: flex;
+    justify-content: space-between;
     padding: 35px 80px;
     margin: 5em 10em;
     background-color: #3882f6;
     border-radius: 10px;
+}
+
+.contact-text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.contact-p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: normal;
 }
