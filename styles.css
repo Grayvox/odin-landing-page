@@ -17,6 +17,12 @@ body {
     color: #e5e7eb;
 }
 
+.white-border {
+    border-color: #f9faf8;
+    border-style: solid;
+    text-align: center;
+}
+
 #header {
     display: flex;
     justify-content: space-around;
@@ -147,4 +153,8 @@ body {
     margin: 0;
     font-size: 18px;
     font-weight: normal;
+}
+
+.contact-button {
+    text-decoration: none;
 }
