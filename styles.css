@@ -13,6 +13,10 @@ body {
     color: #f9faf8;
 }
 
+.secondary-text {
+    color: #e5e7eb;
+}
+
 #header {
     display: flex;
     justify-content: space-around;
@@ -59,7 +63,7 @@ body {
 
 .main-p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
     width: 700px;
 }
 
